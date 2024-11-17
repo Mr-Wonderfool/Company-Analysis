@@ -16,7 +16,11 @@ pip install -e .
 ```
 
 ### 文件说明
-(完成配置之后所有文件可以直接运行)
-- `models/LogisticRegression.py`: 手写实现Logistic回归，同时包括特征选择和调用库函数实现
-- `models/GDA.ipynb`：手写实现高斯判别分析，包括和Logistic回归的对比
-- `models/visualization.ipynb`：数据集可视化，包括特征选择
+1. 模型文件：
+    (完成配置之后所有文件可以直接运行)
+    - `models/LogisticRegression.py`: 手写实现Logistic回归，同时包括特征选择和调用库函数实现
+    - `models/GDA.ipynb`：手写实现高斯判别分析，包括和Logistic回归的对比
+    - `models/visualization.ipynb`：数据集可视化和特征选择
+    - `models/company_bankruptcy_prediction.ipynb`：集成学习部分，需要额外安装库，依赖已经记载在.ipynb文件中
+2. 辅助文件：
+   - `utils/`包含特征选择部分的代码，包括随机森林和互信息

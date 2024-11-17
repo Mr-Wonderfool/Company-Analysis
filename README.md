@@ -22,5 +22,10 @@ pip install -e .
     - `models/GDA.ipynb`：手写实现高斯判别分析，包括和Logistic回归的对比
     - `models/visualization.ipynb`：数据集可视化和特征选择
     - `models/company_bankruptcy_prediction.ipynb`：集成学习部分，需要额外安装库，依赖已经记载在.ipynb文件中
+    - `models/SVM.py`：调用库函数的SVM分类模型
+    - `models/SVM_handwritten.py`：手写实现的SVM分类模型，运行时间较长（本地测试约6min）
 2. 辅助文件：
    - `utils/`包含特征选择部分的代码，包括随机森林和互信息
+
+### 小组成员
+丁子昂，南佳延，徐志铭，赵唯旭

@@ -14,8 +14,9 @@ pip install -r requirements.txt
 cd repo
 pip install -e .
 ```
-- 检验环境是否配置成功
-```bash
-cd models
-python example.py
-```
+
+### 文件说明
+(完成配置之后所有文件可以直接运行)
+- `models/LogisticRegression.py`: 手写实现Logistic回归，同时包括特征选择和调用库函数实现
+- `models/GDA.ipynb`：手写实现高斯判别分析，包括和Logistic回归的对比
+- `models/visualization.ipynb`：数据集可视化，包括特征选择
